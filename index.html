@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="fonts/iconfont.css">
+	<script src="js/zepto.min.js"></script>
+</head>
+
+<body>
+	<div class="timepicker">
+		<h2 class="se-time">日期选择</h2>
+		<div class="J_calendar">
+			<div class="title">
+				<div class="prev-btn t-btn">
+					<i class="iconfont icon-xiangzuo"></i>
+				</div>
+				<p class="p-title"></p>
+				<div class="next-btn t-btn">
+					<i class="iconfont icon-xiangyou"></i>
+				</div>
+			</div>
+			<table class="ca-table">
+				<thead>
+					<tr class="t-head">
+					</tr>
+				</thead>
+				<tbody class="t-body">
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+</body>
+
+<script src="js/calendar.js"></script>
+<script>
+	var Calendar=new Calendar($(".J_calendar"),1);
+</script>
+</html>
